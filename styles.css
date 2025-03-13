@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #222, #444);
+    color: white;
+}
+
+.game-container {
+    position: relative;
+    width: 600px;
+    margin: auto;
+}
+
+canvas {
+    background: url('https://img.freepik.com/free-vector/dark-street-background_1048-8110.jpg') no-repeat center center/cover;
+    display: block;
+    margin: 10px auto;
+    border: 3px solid white;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
